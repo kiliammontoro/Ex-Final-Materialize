@@ -1,0 +1,63 @@
+header{
+  background-color: #b2ebf2;
+  padding: 0.75rem 1rem;
+}
+
+nav{
+  background-color: inherit;
+  color: #4a148c;
+}
+
+li a, a:hover{
+  color: #4a148c !important;
+}
+
+.social{
+  padding: 20px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 6px 6px 0px;
+  background-color: white;
+
+
+}
+
+#galeria img{
+  border: solid 10px white;
+  margin-bottom: 1rem;
+}
+
+.img-post{
+  width: 300px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.card{
+  border-top: solid 10px #4a148c;
+
+}
+
+.post-card{
+  text-align: center;
+  border-top: solid 0px;
+  border-radius: 80px 0px 80px 0px;
+  padding-bottom: 20px;
+}
+
+.autor_img{
+  width: 120px;
+}
+
+.autor-bio-box{
+  padding-top: 30px;
+  margin-top: 20px;
+  border-top: solid 1px #bdbdbd;
+}
+
+.autor-bio{
+  font-size: 12px;
+}
