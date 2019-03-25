@@ -12,20 +12,49 @@ li a, a:hover{
   color: #4a148c !important;
 }
 
-.social{
-  padding: 20px;
-  text-align: center;
+.header-wrap{
+  border-bottom: solid 8px #4a148c !important;
+  margin-bottom: 0px;
+}
+
+.bg-cont{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.social-wrap{
+  padding: 0px;
+}
+
+.social-icons{
   width: 50px;
   height: 50px;
-  border-radius: 0px 6px 6px 0px;
-  background-color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0px 8px 8px 0px;
+  padding-top: 12px
+}
 
-
+.social-icons:hover{
+  width: 60px;
+  transition: width .3s;
 }
 
 #galeria img{
   border: solid 10px white;
   margin-bottom: 1rem;
+}
+
+.blog-wrap{
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: #b2ebf2;
+  margin: 0px;
+
 }
 
 .img-post{
